@@ -1,1 +1,1 @@
-# Janoo-Intern-2nd
+# Janoo-React-Intern
