@@ -1,14 +1,15 @@
 import React from "react";
 import './App.css';
-import Cards from "./Cards";
+// import Cards from "./Cards";
 import 'firebase/analytics';
 import database from "./firebase";
 import firebase from "firebase/app"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import Notification from "./Notification"
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route
+// } from "react-router-dom";
 
 
 function App() {
@@ -57,22 +58,23 @@ function App() {
   
   return (
     <div className="App">
-      <Router>
+      <Notification />
+      {/* <Router>
         <Switch>
-          {/* <Route path="/card/:auth/:id">
+          <Route path="/card/:auth/:id">
             <Header />
             <DynamicCards />
           </Route>
           <Route path="/profile">
             <Header />
             <Profile />
-          </Route> */}
+          </Route>
           <Route path="/">
-            {/* <Header /> */}
+            <Header />
             <Cards />
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }

@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50rem;
+}
+
+button {
+    display: block;
+    position: relative;
+    float: left;
+    width: 120px;
+    padding: 0;
+    margin: 10px 20px 11px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+    border-radius: 5px;
+}
+
+.button1 {
+    background: lightgreen;  
+}
+
+.button2 {
+    background: lightblue;  
+}
+
+.button3 {
+    background: yellow;  
+}
+
+.button4 {
+    background: orange;  
+}
+
+.button5 {
+    background: lightcoral;  
+}
+
+.button6 {
+    background: lightgreen;  
+}
+
+.button7 {
+    background: lightseagreen;  
+}
+
+.button8 {
+    background: lightslategray;  
+}

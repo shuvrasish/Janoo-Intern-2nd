@@ -4,14 +4,14 @@ import "./Cards.css";
 import "./SwipeButtons.css"
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import CancelIcon from '@material-ui/icons/Cancel';
-import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+// import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import IconButton from '@material-ui/core/IconButton';
 import FeedbackIcon from '@material-ui/icons/Feedback';
 import LanguageIcon from '@material-ui/icons/Language';
-import firebase from "firebase/app"
+// import firebase from "firebase/app"
 import 'firebase/analytics';
-import { Swipeable, direction } from 'react-deck-swiper';
-import { Helmet } from "react-helmet";
+import { Swipeable } from 'react-deck-swiper';
+// import { Helmet } from "react-helmet";
 import ShareIcon from '@material-ui/icons/Share';
 import MetaTags from 'react-meta-tags';
 
